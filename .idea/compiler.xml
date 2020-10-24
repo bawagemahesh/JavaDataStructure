@@ -6,13 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="HackerRankTest" />
+        <module name="DataStructure" />
         <module name="JavaDataStructure" />
-        <module name="DS" />
+        <module name="HackerRankTest" />
+        <module name="MettlTest" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="DataStructure" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
 </project>
