@@ -7,7 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="HackerRankTest" />
-        <module name="JavaDataStructure" />
+        <module name="DataStructure" />
       </profile>
     </annotationProcessing>
   </component>
