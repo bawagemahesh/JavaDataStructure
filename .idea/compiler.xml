@@ -8,7 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="HackerRankTest" />
         <module name="JavaDataStructure" />
+        <module name="DS" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="DataStructure" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
