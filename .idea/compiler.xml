@@ -6,10 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="DataStructure" />
+        <module name="TrexDeveloperTest" />
+        <module name="JavaBasic" />
         <module name="HackerRankTest" />
         <module name="MettlTest" />
-        <module name="DataStructure" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="JavaBasic" target="7" />
+      <module name="TrexDeveloperTest" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
