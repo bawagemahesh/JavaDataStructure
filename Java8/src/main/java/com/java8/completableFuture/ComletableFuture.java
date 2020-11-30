@@ -26,4 +26,5 @@ class Task implements Callable<Integer> {
     public Integer call() throws Exception {
         return new Random().nextInt();
     }
+
 }
