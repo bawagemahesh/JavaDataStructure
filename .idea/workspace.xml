@@ -23,12 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7fa0437-59ba-448f-83bb-cf02488c57b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaBasic/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/main/java/FindPairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/main/java/NoOfOccurenceOfCharacters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TrexDeveloperTest/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TrexDeveloperTest/src/main/java/BinerySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/JavaDataStructure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaDataStructure.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -45,12 +42,15 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="/usr/local/Cellar/maven/3.6.3_1/libexec" />
+        <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -72,7 +72,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -168,84 +168,10 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="303" y="58" key="#Project_Structure" timestamp="1604578170493">
-      <screen x="0" y="23" width="1680" height="943" />
-    </state>
-    <state x="303" y="58" key="#Project_Structure/0.23.1680.943@0.23.1680.943" timestamp="1604578170493" />
-    <state x="279" y="138" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603607139919">
-      <screen x="0" y="23" width="1680" height="943" />
-    </state>
-    <state x="279" y="138" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.943@0.23.1680.943" timestamp="1603607139919" />
-    <state x="536" y="285" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604587063282">
-      <screen x="0" y="23" width="1680" height="943" />
-    </state>
-    <state x="536" y="285" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.943@0.23.1680.943" timestamp="1604587063282" />
-    <state x="552" y="285" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1603607136766">
-      <screen x="0" y="23" width="1680" height="943" />
-    </state>
-    <state x="552" y="285" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1680.943@0.23.1680.943" timestamp="1603607136766" />
-    <state x="687" y="387" key="#xdebugger.evaluate" timestamp="1604676526445">
-      <screen x="0" y="23" width="1680" height="943" />
-    </state>
-    <state x="687" y="387" key="#xdebugger.evaluate/0.23.1680.943@0.23.1680.943" timestamp="1604676526445" />
-    <state x="215" y="123" width="1200" height="707" key="DiffContextDialog" timestamp="1603533920516">
-      <screen x="0" y="23" width="1680" height="943" />
-    </state>
-    <state x="215" y="123" width="1200" height="707" key="DiffContextDialog/0.23.1680.943@0.23.1680.943" timestamp="1603533920516" />
-    <state width="1358" height="240" key="GridCell.Tab.0.bottom" timestamp="1604677917023">
-      <screen x="0" y="23" width="1680" height="943" />
-    </state>
-    <state width="1358" height="240" key="GridCell.Tab.0.bottom/0.23.1680.943@0.23.1680.943" timestamp="1604677917023" />
-    <state width="1358" height="240" key="GridCell.Tab.0.center" timestamp="1604677917022">
-      <screen x="0" y="23" width="1680" height="943" />
-    </state>
-    <state width="1358" height="240" key="GridCell.Tab.0.center/0.23.1680.943@0.23.1680.943" timestamp="1604677917022" />
-    <state width="1358" height="240" key="GridCell.Tab.0.left" timestamp="1604677917022">
-      <screen x="0" y="23" width="1680" height="943" />
-    </state>
-    <state width="1358" height="240" key="GridCell.Tab.0.left/0.23.1680.943@0.23.1680.943" timestamp="1604677917022" />
-    <state width="1358" height="240" key="GridCell.Tab.0.right" timestamp="1604677917023">
-      <screen x="0" y="23" width="1680" height="943" />
-    </state>
-    <state width="1358" height="240" key="GridCell.Tab.0.right/0.23.1680.943@0.23.1680.943" timestamp="1604677917023" />
-    <state width="1358" height="298" key="GridCell.Tab.1.bottom" timestamp="1604676686354">
-      <screen x="0" y="23" width="1680" height="943" />
-    </state>
-    <state width="1358" height="298" key="GridCell.Tab.1.bottom/0.23.1680.943@0.23.1680.943" timestamp="1604676686354" />
-    <state width="1358" height="298" key="GridCell.Tab.1.center" timestamp="1604676686353">
-      <screen x="0" y="23" width="1680" height="943" />
-    </state>
-    <state width="1358" height="298" key="GridCell.Tab.1.center/0.23.1680.943@0.23.1680.943" timestamp="1604676686353" />
-    <state width="1358" height="298" key="GridCell.Tab.1.left" timestamp="1604676686353">
-      <screen x="0" y="23" width="1680" height="943" />
-    </state>
-    <state width="1358" height="298" key="GridCell.Tab.1.left/0.23.1680.943@0.23.1680.943" timestamp="1604676686353" />
-    <state width="1358" height="298" key="GridCell.Tab.1.right" timestamp="1604676686353">
-      <screen x="0" y="23" width="1680" height="943" />
-    </state>
-    <state width="1358" height="298" key="GridCell.Tab.1.right/0.23.1680.943@0.23.1680.943" timestamp="1604676686353" />
-    <state x="316" y="115" key="SettingsEditor" timestamp="1603607119377">
-      <screen x="0" y="23" width="1680" height="943" />
-    </state>
-    <state x="316" y="115" key="SettingsEditor/0.23.1680.943@0.23.1680.943" timestamp="1603607119377" />
-    <state x="421" y="217" key="VcsDiffUtil.ChangesDialog" timestamp="1603564640009">
-      <screen x="0" y="23" width="1680" height="943" />
-    </state>
-    <state x="421" y="217" key="VcsDiffUtil.ChangesDialog/0.23.1680.943@0.23.1680.943" timestamp="1603564640009" />
-    <state x="602" y="261" key="chooseDestDirectoryDialog" timestamp="1603606724980">
-      <screen x="0" y="23" width="1680" height="943" />
-    </state>
-    <state x="602" y="261" key="chooseDestDirectoryDialog/0.23.1680.943@0.23.1680.943" timestamp="1603606724980" />
-    <state x="389" y="139" width="1291" height="674" key="new project wizard" timestamp="1604587058681">
-      <screen x="0" y="23" width="1680" height="943" />
-    </state>
-    <state x="389" y="139" width="1291" height="674" key="new project wizard/0.23.1680.943@0.23.1680.943" timestamp="1604587058681" />
-    <state x="480" y="220" width="670" height="676" key="search.everywhere.popup" timestamp="1604583444759">
-      <screen x="0" y="23" width="1680" height="943" />
-    </state>
-    <state x="480" y="220" width="670" height="676" key="search.everywhere.popup/0.23.1680.943@0.23.1680.943" timestamp="1604583444759" />
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JavaDataStructure$ExampleTest.ic" NAME="ExampleTest Coverage Results" MODIFIED="1638455038381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>fibonacci.*</FILTER>
+    </SUITE>
   </component>
 </project>
