@@ -1,19 +1,17 @@
-package com.java.Queue;
+package com.java.BigO.Queue;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-
-class QueueTest {
-
+public class Test {
     public static void main(String[] args) {
         int a = getNumofPages(2, 6);
         System.out.println(a);
     }
 
-   public  static int getNumofPages(int pageNum, int numofPages) {
+    public static int getNumofPages(int pageNum, int numofPages) {
         int pagenumber = 0;
-        Deque<Integer> book = new ArrayDeque<Integer>();
+        Deque<Integer> book = new ArrayDeque<>();
         for (int i = 1; i < numofPages; i++) {
             book.add(i);
         }
@@ -27,3 +25,4 @@ class QueueTest {
     }
 
 }
+

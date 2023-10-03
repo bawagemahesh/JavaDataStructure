@@ -1,4 +1,4 @@
-package LinkedList;
+package com.java.LinkedList;
 
 public class LinkedList {
     private static class Node {
