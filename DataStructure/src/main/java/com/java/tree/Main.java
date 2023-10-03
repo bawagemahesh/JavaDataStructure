@@ -2,8 +2,6 @@ package com.java.tree;
 
 public class Main {
     public static void main(String[] args) {
-        int r = 0;
-        r = (int) (r +( Math.pow(2, 1)));
         Node<Character> a = new Node<>('A');
         Node<Character> b = new Node<>('B');
         Node<Character> c = new Node<>('C');
@@ -37,23 +35,90 @@ public class Main {
         Node<String> fiona = new Node<>("Fiona");
         Node<String> greg = new Node<>("Greg");
         Node<String> harry = new Node<>("Harry");
+        Node<String> irena = new Node<>("Irena");
 
-        System.out.println("**********************************");
-        //BreathFirst.breathFirst(a);
         alice.setLeftChild(bob);
         alice.setRightChild(charles);
+
         bob.setLeftChild(dora);
         bob.setRightChild(elsa);
-        dora.setLeftChild(fiona);
-        dora.setRightChild(harry);
-        elsa.setLeftChild(greg);
 
-        //BreathFirst.breathFirstWithPair(alice);
+        charles.setLeftChild(fiona);
+        charles.setRightChild(greg);
 
+        dora.setLeftChild(harry);
+        dora.setRightChild(irena);
+
+        //elsa.setLeftChild(greg);
+
+        Node<Integer> one = new Node<>(1);
+        Node<Integer> two = new Node<>(2);
+        Node<Integer> three = new Node<>(3);
+        Node<Integer> four = new Node<>(4);
+        Node<Integer> five = new Node<>(5);
+        Node<Integer> six = new Node<>(6);
+        Node<Integer> seven = new Node<>(7);
+        Node<Integer> eight = new Node<>(8);
+        Node<Integer> nine = new Node<>(9);
+        Node<Integer> ten = new Node<>(10);
+
+        one.setLeftChild(two);
+        one.setRightChild(three);
+
+        two.setLeftChild(four);
+        two.setRightChild(five);
+
+        three.setLeftChild(six);
+        three.setRightChild(seven);
+
+        four.setLeftChild(eight);
+        four.setRightChild(nine);
+
+        five.setLeftChild(ten);
+
+
+        System.out.println("\n************** 1. BreathFirst.breathFirstWithQueue(a); ********************");
+        BreathFirst.breathFirstWithQueue(a);
+        System.out.println("\n************** 2. BreathFirst.breathFirstWithPair(alice); ********************");
+        BreathFirst.breathFirstWithPair(alice);
+        System.out.println("\n************** 3. BreathFirst.inOrderStack(alice); ********************");
         DeptFirst.inOrderStack(alice);
-        System.out.println("\n**********************************");
+        System.out.println("\n*************** 4. DeptFirst.inOrderRecurrsion(alice) *******************");
         DeptFirst.inOrderRecurrsion(alice);
+        System.out.println("\n*************** 5. DeptFirst.preOrderStack(alice) *******************");
+        DeptFirst.preOrderStack(alice);
+        System.out.println("\n*************** 6. DeptFirst.preOrderRecurrsion(alice) *******************");
+        DeptFirst.preOrderRecurrsion(alice);
+        System.out.println("\n*************** 7. DeptFirst.postOrderStack(alice) *******************");
+        DeptFirst.postOrderStack(alice);
+        System.out.println("\n*************** 8. DeptFirst.postOrderRecurrsion(alice) *******************");
+        DeptFirst.postOrderRecurrsion(alice);
+
+        System.out.println("\n########### 9. Problems.countNodes(alice); ########### ");
+        System.out.println("Number of Nodes : "+Problems.countNodes(alice));
+
+        System.out.println("\n########### 10. Problems.maxDepth(alice); ########### ");
+        System.out.println("Max Depth of Nodes : "+Problems.maxDepth(alice));
+
+        System.out.println("\n########### 11. Problems.hasPathSum(alice); ########### ");
+        System.out.println("Max Depth of Nodes : "+Problems.hasPathSum(one, 15));
+
+        System.out.println("\n########### 12. Before Mirror ########### ");
+        BreathFirst.breathFirstWithPair(alice);
+
+        Problems.mirrorNodes(alice);
+        System.out.println("\n########### 12. After Mirror ########### ");
+        BreathFirst.breathFirstWithPair(alice);
+
+        System.out.println("\n########### 13. Problems.isFull(alice); ########### ");
+        System.out.println("Is Full Binary Tree : "+Problems.isFull(alice));
+
+        System.out.println("\n########### 14. Problems.isPerfect(alice); ########### ");
+        System.out.println("Is Perfect Binary Tree : "+Problems.isPerfect(alice));
+
+
     }
+
 
 
 }

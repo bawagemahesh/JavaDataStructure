@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class BreathFirst {
-    public static <T> void breathFirst(Node<T> root){
+    public static <T> void breathFirstWithQueue(Node<T> root){
         if(root == null){
             return;
         }
