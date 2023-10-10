@@ -1,6 +1,7 @@
 package com.java.tree;
 
 import java.util.LinkedList;
+import java.util.Map;
 import java.util.Queue;
 
 public class Problems<T>{
@@ -102,4 +103,39 @@ public class Problems<T>{
         int leftDepth = leftDepth(root);
         return isPerfectRecursive(root, leftDepth, 0);
     }
+
+    public static <T> boolean isComplete(Node<T> root, int currentNodeIndex, int totalNodes){
+        if(root == null){
+            return true;
+        }
+        if(currentNodeIndex >= totalNodes){
+            return  false;
+        }
+        int leftChildIndex = 2 * currentNodeIndex + 1;
+        int rightChildIndex = 2 * currentNodeIndex + 2;
+        return isComplete(root.getLeftChild(), leftChildIndex, totalNodes) &&
+                isComplete(root.getRightChild(), rightChildIndex, totalNodes);
+    }
+
+    public static <T> boolean isBalanced(Node<T> root, Map<Node<T>, Integer> nodeHightMap){
+        if(root == null){
+            return true;
+        }
+        boolean isLeftBalanced = isBalanced(root.getLeftChild(), nodeHightMap);
+        boolean isRightBalanced = isBalanced(root.getRightChild(), nodeHightMap);
+
+        int leftHeight = nodeHightMap.getOrDefault(root.getLeftChild(),0);
+        int rightHeight = nodeHightMap.getOrDefault(root.getRightChild(),0);
+
+        nodeHightMap.put(root, Math.max(leftHeight, rightHeight)+1);
+
+        if(Math.abs(leftHeight - rightHeight) <= 1){
+            return  isLeftBalanced && isRightBalanced;
+        }
+
+        return false;
+    }
+
+
+
 }

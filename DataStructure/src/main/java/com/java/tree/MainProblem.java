@@ -1,6 +1,6 @@
 package com.java.tree;
 
-public class Main {
+public class MainProblem {
     public static void main(String[] args) {
         Node<Character> a = new Node<>('A');
         Node<Character> b = new Node<>('B');
@@ -76,23 +76,31 @@ public class Main {
 
         five.setLeftChild(ten);
 
+        System.out.println("\n########### 9. Problems.countNodes(alice); ########### ");
+        System.out.println("Number of Nodes : "+Problems.countNodes(alice));
 
-        System.out.println("\n************** 1. BreathFirst.breathFirstWithQueue(a); ********************");
-        BreathFirst.breathFirstWithQueue(a);
-        System.out.println("\n************** 2. BreathFirst.breathFirstWithPair(alice); ********************");
+        System.out.println("\n########### 10. Problems.maxDepth(alice); ########### ");
+        System.out.println("Max Depth of Nodes : "+Problems.maxDepth(alice));
+
+        System.out.println("\n########### 11. Problems.hasPathSum(alice); ########### ");
+        System.out.println("Max Depth of Nodes : "+Problems.hasPathSum(one, 15));
+
+        System.out.println("\n########### 12. Before Mirror ########### ");
         BreathFirst.breathFirstWithPair(alice);
-        System.out.println("\n************** 3. BreathFirst.inOrderStack(alice); ********************");
-        DeptFirst.inOrderStack(alice);
-        System.out.println("\n*************** 4. DeptFirst.inOrderRecurrsion(alice) *******************");
-        DeptFirst.inOrderRecurrsion(alice);
-        System.out.println("\n*************** 5. DeptFirst.preOrderStack(alice) *******************");
-        DeptFirst.preOrderStack(alice);
-        System.out.println("\n*************** 6. DeptFirst.preOrderRecurrsion(alice) *******************");
-        DeptFirst.preOrderRecurrsion(alice);
-        System.out.println("\n*************** 7. DeptFirst.postOrderStack(alice) *******************");
-        DeptFirst.postOrderStack(alice);
-        System.out.println("\n*************** 8. DeptFirst.postOrderRecurrsion(alice) *******************");
-        DeptFirst.postOrderRecurrsion(alice);
+
+        Problems.mirrorNodes(alice);
+        System.out.println("\n########### 12. After Mirror ########### ");
+        BreathFirst.breathFirstWithPair(alice);
+
+        System.out.println("\n########### 13. Problems.isFull(alice); ########### ");
+        System.out.println("Is Full Binary Tree : "+Problems.isFull(alice));
+
+        System.out.println("\n########### 14. Problems.isPerfect(alice); ########### ");
+        System.out.println("Is Perfect Binary Tree : "+Problems.isPerfect(alice));
+
+        System.out.println("\n########### 15. Problems.isComplete(alice); ########### ");
+        System.out.println("Is Complete Binary Tree : "+Problems.isComplete(alice, 0, Problems.countNodes(alice)));
+
 
     }
 
