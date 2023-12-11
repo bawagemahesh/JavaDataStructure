@@ -14,8 +14,11 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="JavaBasic" target="7" />
-      <module name="TrexDeveloperTest" target="1.5" />
+      <module name="DataStructure" target="8" />
+      <module name="JavaBasic" target="11" />
+      <module name="JavaDataStructure" target="11" />
+      <module name="MettlTest" target="11" />
+      <module name="TrexDeveloperTest" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

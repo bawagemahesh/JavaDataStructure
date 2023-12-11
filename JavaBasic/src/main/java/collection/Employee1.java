@@ -2,12 +2,12 @@ package collection;
 
 import java.util.Objects;
 
-public class Employee {
+public class Employee1 {
 
     int id;
     String name;
 
-    Employee()
+    Employee1()
     {
     }
 
@@ -15,9 +15,9 @@ public class Employee {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Employee employee = (Employee) o;
-        return id == employee.id &&
-                Objects.equals(name, employee.name);
+        Employee1 employee1 = (Employee1) o;
+        return id == employee1.id &&
+                Objects.equals(name, employee1.name);
     }
 
 //    @Override
@@ -25,7 +25,7 @@ public class Employee {
 //        return Objects.hash(id, name);
 //    }
 
-    public Employee(int id, String name) {
+    public Employee1(int id, String name) {
         this.id = id;
         this.name = name;
     }
